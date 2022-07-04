@@ -15,10 +15,10 @@ const Counter = () => {
   return (
     <div>
         <h1>Counter App</h1>
-        <p>Count: {count}</p>
-        <button onClick={increase}> Increase </button>
-        <button onClick={decrease}> Decrease </button>
-        <button onClick={resets}> Reset </button>
+        <p id='counter-value'>Count: {count}</p>
+        <button id='increase-button' onClick={increase}> Increase </button>
+        <button id='decrease-button'onClick={decrease}> Decrease </button>
+        <button id='reset-button' onClick={resets}> Reset </button>
 
     </div>
   )
